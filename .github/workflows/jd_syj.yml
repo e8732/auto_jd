@@ -20,7 +20,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: bcb9866219/jd_temp
+          repository: bcb9866219/jd_back
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【十元街】'
+      - name: '运行 【京豆十元街】'
         run: |
           node jd_syj.js
         env:
