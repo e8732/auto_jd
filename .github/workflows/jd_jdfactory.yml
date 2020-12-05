@@ -43,6 +43,7 @@ jobs:
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           DDFACTORY_SHARECODES: ${{ secrets.DDFACTORY_SHARECODES}}
+          FACTORAY_WANTPRODUCT_NAME: ${{ secrets.FACTORAY_WANTPRODUCT_NAME}}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
           BARK_SOUND: ${{ secrets.BARK_SOUND }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
