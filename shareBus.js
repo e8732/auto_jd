@@ -180,10 +180,10 @@ function createZz(jxUrl) {
 async function showMsg() {
   if ($.isNode()) {
     $.log(jsname + '\n' + message)
-    await notify.sendNotify(jsname, "", message)
+    await notify.sendNotify(jsname, message, message)
   } else {
     $.log(message)
-    $.msg(jsname, "", message)
+    $.msg(jsname, message, message)
   }
 
 }
